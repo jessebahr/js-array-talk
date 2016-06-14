@@ -1,4 +1,4 @@
-var exercise = require('./.exercise.key.js'); //todoj
+var exercise = require('./exercise.js');
 
 /**
  * Jasmine tests for the exercise
