@@ -57,7 +57,7 @@ describe('flattenArray()', function(){
 	});
 });
 
-describe('flattenArrayWithField()', function(){
+xdescribe('flattenArrayWithField()', function(){
 	//these are basically the same tests
 
 	it('returns an array', function(){
@@ -103,7 +103,7 @@ describe('flattenArrayWithField()', function(){
 	});
 });
 
-describe('flattenArrayWithField handles nulls', function(){
+xdescribe('flattenArrayWithField handles nulls', function(){
 	it('skips an object without an "arr" field', function(){
 		var result = exercise.flattenArrayWithField([{arr: [1]}, {}, {arr: [2]}]);
 
@@ -119,7 +119,7 @@ describe('flattenArrayWithField handles nulls', function(){
 	});
 });
 
-describe('totalByCountry()', function(){
+xdescribe('totalByCountry()', function(){
 	it('makes a lookup for people from the UK', function(){
 		var result = exercise.totalByCountry([
 			{name: 'Asdf Qwerty', country: 'uk'},
