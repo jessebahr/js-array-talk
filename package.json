@@ -1,0 +1,10 @@
+{
+	"name": "array-exercises",
+	"version": "0.0.1",
+	"scripts": {
+		"test": "jasmine-node ./"
+	},
+	"devDependencies": {
+		"jasmine-node": "1.14.5"
+	}
+}
